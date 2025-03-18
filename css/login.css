@@ -1,0 +1,127 @@
+/* Reset geral */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, sans-serif;
+}
+
+body {
+    background-color: #f9f3dd; /* Fundo amarelo claro */
+}
+
+/* Container geral */
+.container {
+    width: 50%;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Barra superior */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0bc42; /* Fundo dourado */
+    padding: 20px;
+    border-radius: 8px 8px 0 0;
+}
+
+.back-btn {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.url-bar span {
+    font-size: 14px;
+    color: #555; /* Texto cinza escuro */
+}
+
+/* Conteúdo principal */
+.content {
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 10%;
+}
+
+label {
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Botão de login */
+.login-btn {
+    width: 100%;
+    background-color: #a4fca5; /* Verde claro */
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Rodapé */
+footer {
+    background-color: #f0bc42; /* Fundo dourado */
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end; /* Alinha os elementos do footer à direita */
+    align-items: center;
+    border-radius: 0 0 8px 8px;
+}
+
+/* Alinha o conteúdo da logo à direita */
+.logo {
+    text-align: right;
+    flex-grow: 1; /* Garante que ocupa o espaço necessário */
+}
+
+.logo span {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.logo p {
+    font-size: 12px;
+}
+
+.login-link {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.login-link a {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.login-link a:hover {
+    text-decoration: underline;
+}
