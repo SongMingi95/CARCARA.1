@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, sans-serif;
+}
+
+body {
+    background-color: #f9f3dd;
+}
+
+.container {
+    width: 50%;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.header {
+    display: flex; /* Permite alinhar os itens horizontalmente */
+    justify-content: flex-end; /* Move o botão para a direita */
+    background-color: #f0bc42;
+    padding: 10px;
+    border-radius: 8px 8px 0 0;
+}
+
+.logout-btn {
+    background-color: #ff4444;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.logout-btn:hover {
+    background-color: #d93434;
+}
+
+
+.content {
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.actions {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.actions button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.cadastrar-btn {
+    background-color: #4caf50;
+}
+
+.cadastrar-btn:hover {
+    background-color: #43a047;
+}
+
+.editar-btn {
+    background-color: #ffa726;
+}
+
+.editar-btn:hover {
+    background-color: #fb8c00;
+}
+
+.visualizar-btn {
+    background-color: #0c1adb;
+}
+
+.visualizar-btn:hover {
+    background-color: #1976d2;
+}
+
+footer {
+    background-color: #f0bc42;
+    padding: 10px;
+    display: flex-end;
+    justify-content: right;
+    align-items: flex-end;
+    border-radius: 0 0 8px 8px;
+}
+
+
+.logo {
+    text-align: right;
+    flex-grow: 1; /* Garante que ocupa o espaço necessário */
+}
+
+.logo span {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.logo p {
+    font-size: 12px;
+}
